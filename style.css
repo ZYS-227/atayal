@@ -1,0 +1,578 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap');
+body{
+	font-family: 'Noto Serif TC', serif;
+}
+nav {
+    width: 100%;
+    height: 70px;
+    background-color: #FFEEC8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    opacity: 0.9;
+    -webkit-box-shadow: 0px 1px 20px #C8C8C8;
+    box-shadow: 0px 1px 20px #C8C8C8;
+}
+nav h3 {
+  color: #FFFFFF;
+  font-size: 18px;
+  margin-left: 20px;
+  font-weight: 500;
+}
+body {
+    background-size: 100% 100%;
+}
+
+nav ul li {
+    display: inline;
+    text-align: left;
+}
+h2 {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 11px;
+}
+
+nav a:link {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 300;
+}
+nav a:visited {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 300;
+}
+nav a:hover {
+    color: #F92126;
+    text-decoration: none;
+}
+nav ul {
+	margin-right: 20px;
+	display: inline;
+}
+.container {
+	margin-right: auto;
+	margin-left: auto;
+	right: auto;
+	width: 1000px;
+}
+header {
+    width: 100%;
+    height: 851px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center center;
+    background-image: url(%E7%B6%B2%E7%AB%99%E6%9C%9F%E6%9C%AB%E7%B4%A0%E6%9D%90/img5.jpg);
+}
+header h1 {
+    color: #FD333A;
+    font-size: 128px;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 70px;
+    line-height: 95px;
+}
+header a:link {
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    background-color: #FAFAFA;
+    border-radius: 35px;
+    font-size: 22px;
+    color: #CF787A;
+    text-decoration: none;
+}
+header a:visited {
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    background-color: #FAFAFA;
+    border-radius: 35px;
+    font-size: 22px;
+    color: #9576FF;
+    text-decoration: none;
+}
+header a:hover {
+  padding-top: 20px;
+  padding-right: 40px;
+  padding-bottom: 20px;
+  padding-left: 40px;
+  background-color: #550E57;
+  border-radius: 35px;
+  font-size: 22px;
+  color: #F4F4F4;
+  text-decoration: none;
+}
+nav a:link {
+    color: #000000;
+}
+nav a:hover {
+    color: #FD0F0F;
+}
+nav a:visited {
+    color: #868686;
+}
+footer h6 {
+    text-align: center;
+    padding-top: 24px;
+}
+iframe {
+	text-align: center;
+	width: 999px;
+	border-style: dashed;
+	border-color: #FFA7A9;
+}
+img {
+    background-size: auto auto;
+    border-width: medium;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+}video {
+    text-align: center;
+    background-image: url(%E7%B6%B2%E7%AB%99%E6%9C%9F%E6%9C%AB%E7%B4%A0%E6%9D%90/img6.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.container header {
+    background-position: 139px center;
+    background-size: cover;
+    width: 100%;
+    height: 182px;
+}
+.contest {
+    background-color: #E1E1E1;
+    padding-bottom: 4px;
+    padding-left: 30px;
+}
+.member {
+    background-position: center center;
+    background-size: cover;
+    color: #000000;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    background-color: #FFFFFF;
+}
+.motive {
+    background-color: #797979;
+    padding-left: 30px;
+    margin-top: 293px;
+}
+.price {
+    background-color: #797979;
+    padding-left: 30px;
+    margin-top: -16px;
+    padding-bottom: 19px;
+}
+.picture {
+    background-image: url(img6.jpg);
+    background-position: center center;
+    background-size: cover;
+    color: #FFFFFF;
+    padding-bottom: 31px;
+    width: 100%;
+}
+
+.video {
+    padding-left: 30px;
+    padding-bottom: 4px;
+    margin-top: 20px;
+    height: 200px;
+}
+
+.contact {
+    background-color: #797979;
+    padding-left: 30px;
+    padding-bottom: 8px;
+}
+body footer {
+    background-color: #E1E1E1;
+    margin-top: -31px;
+    padding-bottom: 2px;
+}
+
+
+
+
+.contest p {
+    width: 100%;
+    padding-right: 5px;
+    font-size: 24px;
+}
+.price table {
+    width: 1249px;
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 225px;
+}
+
+.picture div {
+    display: flex;
+    padding-top: 0px;
+    width: 100px;
+    text-align: center;
+    padding-left: 174px;
+}
+.video iframe {
+    text-align: center;
+    padding-left: 236px;
+
+}
+.video video {
+    text-align: center;
+    padding-left: 218px;
+}
+
+.contact iframe {
+    width: 100%;
+}
+.採訪1 {
+    background-color: #E1E1E1;
+    display: flex;
+    width: 100%;
+    height: 715px;
+    padding-top: 0px;
+    padding-bottom: 44px;
+    margin-left: -14px;
+}
+.採訪2 {
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    background-color: #E1E1E1;
+    padding-top: 32px;
+    margin-left: -14px;
+}
+.採訪2QA {
+    background-color: #FFFFFF;
+    width: 50%;
+    margin-left: 375px;
+    font-size: 22px;
+    margin-top: 66px;
+}
+
+
+
+.right {
+    flex: 1;
+    margin-top: 105px;
+    font-size: 12px;
+    margin-left: -11px;
+    width: 42px;
+    padding-top: 85px;
+}
+.left {
+    flex: 1;
+    background-position: center center;
+    background-size: cover;
+    margin-left: 45px;
+    margin-right: 8px;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 400px;
+    left: 81px;
+    padding-top: 0px;
+    margin-top: 54px;
+    display: flex;
+}
+.member .採訪2 {
+    display: flex;
+    width: 100%;
+    height: 715px;
+}
+.member .採訪2 .採訪2.left {
+    background-position: center center;
+    background-size: cover;
+    margin-left: 35px;
+    margin-top: 10px;
+    width: 400px;
+    height: 400px;
+    padding-left: 7px;
+}
+.member .採訪3 {
+    background-color: #E1E1E1;
+    width: 100%;
+    display: flex;
+    height: 715px;
+    padding-top: 38px;
+    margin-left: -14px;
+}
+.member .採訪3 .採訪3left {
+    flex: 1;
+    background-position: center center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    margin-top: 19px;
+    margin-left: 10px;
+    margin-right: 34px;
+    padding-top: 0px;
+    padding-left: 32px;
+}
+.member .採訪3 .採訪3right {
+    flex: 1;
+    width: 50px;
+    display: table-row;
+}
+.採訪2.right {
+    width: 50px;
+    display: table-row;
+    flex: 1;
+    margin-top: 39px;
+    height: 0px;
+    padding-top: 114px;
+}
+.介紹2 {
+    padding-top: 0px;
+    margin-top: -15px;
+}
+
+
+.採訪4 {
+    width: 100%;
+    height: 715px;
+    display: flex;
+    background-color: #E1E1E1;
+    margin-left: -14px;
+}
+.採訪4 .採訪4.left {
+    flex: 1;
+    background-position: center center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    padding-left: 59px;
+    padding-bottom: 0px;
+    margin-top: 34px;
+}
+.採訪4 .採訪4.right {
+    width: 33px;
+    height: 225px;
+    flex: 1;
+    font-size: 20px;
+    display: table-row;
+    margin-top: 83px;
+}
+.contest .段落1 {
+    width: 50%;
+    font-size: 22px;
+    margin-left: 375px;
+}
+.video #a06 {
+    font-size: 26px;
+}
+.video .end {
+    width: 730px;
+    margin-left: 342px;
+    font-size: 22px;
+    padding-bottom: 14px;
+}
+
+
+.contest #a01 {
+    font-size: 26px;
+    display: table-row;
+    margin-top: -44px;
+}
+#a02 {
+    font-size: 54px;
+    margin-top: 30px;
+    padding-top: 14px;
+    margin-left: -8px;
+}
+.短落2 {
+    width: 50%;
+    margin-left: 375px;
+    font-size: 22px;
+}
+.採訪1QA .QA1 {
+    width: 50%;
+    margin-left: 375px;
+    font-size: 22px;
+    padding-top: 44px;
+    margin-top: 10px;
+}
+.採訪3QA {
+    width: 50%;
+    margin-left: 375px;
+    font-size: 22px;
+}
+.採訪4QA {
+    width: 50%;
+    margin-left: 375px;
+    font-size: 22px;
+}
+.box4  {
+    width: 70%;
+    height: 300px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
+.box4 .採訪4.right p {
+    margin-top: -61px;
+    
+
+}
+.介紹 {
+    margin-top: 7px;
+    margin-left: 1px;
+    font-size: 22px;
+    margin-bottom: -30px;
+    padding-left: 9px;
+}
+.介紹3 {
+    font-size: 22px;
+    margin-top: -11px;
+}
+
+
+.name   {
+    font-size: 54px;
+    height: 50px;
+    margin-top: -212px;
+    margin-bottom: 10px;
+    padding-left: 8px;
+}
+.name4 {
+    font-size: 54px;
+    margin-top: -170px;
+    margin-left: -6px;
+}
+
+
+.族名 {
+    margin-top: -17px;
+    margin-left: 3px;
+    
+}
+.機構   {
+    font-size: 14px;
+    margin-left: 4px;
+    margin-top: -21px;
+    
+    width: 163px;
+}
+.族名1 {
+    font-size: 20px;
+    margin-top: -24px;
+    width: 182px;
+    padding-top: 30px;
+    padding-left: 10px;
+    margin-left: 5px;
+}
+.name3 {
+    font-size: 54px;
+    margin-left: -2px;
+    margin-top: -47px;
+}
+
+.機構1 {
+    font-size: 18px;
+    margin-top: -12px;
+    padding-top: 0px;
+    padding-left: 9px;
+    margin-left: 5px;
+}
+.族名2 {
+    font-size: 20px;
+    margin-top: -13px;
+    margin-left: 1px;
+    padding-top: 12px;
+}
+.機構2 {
+    font-size: 18px;
+    margin-top: -11px;
+    margin-left: 2px;
+}
+.族名3 {
+    font-size: 20px;
+    margin-top: -43px;
+    margin-left: -6px;
+    padding-left: 8px;
+}
+.機構3 {
+    font-size: 18px;
+    margin-top: -38px;
+    margin-left: -12px;
+    padding-left: 13px;
+    padding-top: 8px;
+}
+.wow.fadeInUp {
+    margin-left: 636px;
+}
+.id01 {
+}
+.audiocontiner {
+    width: 967px;
+    margin-left: auto;
+    margin-top: -247px;
+    height: 200px;
+    display: flex;
+    border: 3px solid #FFFFFF;
+    margin-bottom: 8px;
+    margin-right: auto;
+}
+
+.audioword {
+    display: flex;
+    flex: 1;
+    font-size: 22px;
+    padding-left: 29px;
+    padding-top: 39px;
+}
+.stop {
+    padding-left: 343px;
+    margin-top: -40px;
+}
+.svg {
+    display: table-row;
+    padding-top: 0px;
+    margin-top: -15px;
+    margin-left: -4px;
+}
+.voice {
+    padding-top: 14px;
+    padding-left: 23px;
+}
+
+.discription   {
+    padding-top: 22px;
+    margin-top: -44px;
+    padding-left: 26px;
+}
+.介紹2 {
+    font-size: 22px;
+    padding-top: 0.1px;
+}
+.介紹4 {
+    font-size: 22px;
+    padding-top: 21px;
+}
+.機構4 {
+    font-size: 18px;
+    padding-top: 22px;
+}
+.族名4 {
+    font-size: 20px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.audiocontiner4 {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 967px;
+    height: 180px;
+    margin-bottom: 8px;
+    border: 3px solid #FFFFFF;
+    padding-top: 30px;
+    margin-top: -227px;
+}
